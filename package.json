@@ -1,0 +1,23 @@
+{
+  "name": "hangmancli",
+  "version": "1.0.0",
+  "description": "homework assignment",
+  "main": "hang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alrodis/HangmanCLI.git"
+  },
+  "author": "arodis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alrodis/HangmanCLI/issues"
+  },
+  "homepage": "https://github.com/alrodis/HangmanCLI#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "prompt": "^1.0.0"
+  }
+}
