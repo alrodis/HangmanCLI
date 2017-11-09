@@ -1,13 +1,10 @@
-var inquirer = require("inquirer");
 
-var numGuesses = 9;
+function Letter(singleLetter) {
+	this.actualLetter = singleLetter
+	this.tempDisplay = ' _'
+	this.guessed = false
+}
 
-inquirer.prompt([
-	{
-		name:"guess",
-		message:"Guess a letter!"
-	}
 
-	]).then(function(answers){
-		console.log(answers);
-	})
+
+module.exports = Letter;

@@ -27,7 +27,7 @@ var stringToLog = '';
 firstWord.letters[0].guessed = true
 firstWord.letters[3].guessed = true
 
-for (var i = 0; i < firstWord.letters.length; i ++) {
+for (var i = 0; i < firstWord.letters.length; i++) {
 	if (firstWord.letters[i].guessed === true) {
 		stringToLog += firstWord.letters[i].actualLetter
 	} else if (firstWord.letters[i].guessed === false) {
